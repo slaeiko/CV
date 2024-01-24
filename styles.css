@@ -1,0 +1,79 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            /* Cambiar el color de fondo */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #333;
+            /* Cambiar el color de fondo */
+            color: #fff;
+            /* Cambiar el color del texto */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #profile-image {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        h2 {
+            color: #333;
+            /* Cambiar el color de los títulos */
+        }
+
+        .section {
+            margin-bottom: 10px;
+            background-color: #fff;
+            /* Cambiar el color de fondo */
+            padding: 20px;
+            padding-top: 8px;
+            border-radius: 5px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #007bff;
+            /* Cambiar el color del título de la sección */
+        }
+
+        .subsection {
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        ul#hl {
+            padding: 0px;
+        }
+
+        ul#hl li {
+            display: inline;
+            margin-inline: 5px;
+        }
+
+        .progress-bar {
+            margin-inline: 10px;
+            width: 200px;
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            width: 50%; /* Ajusta este valor para cambiar el porcentaje de la barra */
+            background-color: #007bff;
+        }
