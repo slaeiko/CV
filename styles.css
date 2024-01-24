@@ -74,6 +74,7 @@
 
         .progress {
             height: 100%;
-            width: 50%; /* Ajusta este valor para cambiar el porcentaje de la barra */
+            width: 50%;
+            /* Ajusta este valor para cambiar el porcentaje de la barra */
             background-color: #007bff;
         }
